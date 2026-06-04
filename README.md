@@ -76,6 +76,10 @@ The system saves results into an Excel file:
 └── README.md
 
 
+## Screenshot
+
+![App Screenshot] (screenshot.png)
+
 # Author
 Bilal Lukman Alkrayem
 
