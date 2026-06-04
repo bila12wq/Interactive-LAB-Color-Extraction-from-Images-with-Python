@@ -78,7 +78,7 @@ The system saves results into an Excel file:
 
 ## Screenshot
 
-![App Screenshot] (screenshot.png)
+![LAB Color Analyzer](screenshot.png)
 
 # Author
 Bilal Lukman Alkrayem
