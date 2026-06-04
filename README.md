@@ -71,10 +71,10 @@ The system saves results into an Excel file:
    project/
 │
 ├── main.py
-├── image.jpg
-├── lab_results.xlsx
 └── README.md
-
+├── requirements.txt 
+├── sample.jpg
+├── lab_color_analysis_example.png
 
 ## Screenshot
 
