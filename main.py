@@ -91,20 +91,20 @@ def click_event(event, x, y, flags, param):
             "Accuracy": round(acc, 2)
         })
 
-        # ✅ Draw sampling region box
+        # Draw sampling region box
         cv2.rectangle(img_display,
                       (x - size, y - size),
                       (x + size, y + size),
                       (0, 255, 0), 2)
 
-        # ✅ Draw crosshair
+        # Draw crosshair
         cv2.line(img_display, (x-10, y), (x+10, y), (0, 0, 255), 1)
         cv2.line(img_display, (x, y-10), (x, y+10), (0, 0, 255), 1)
 
-        # ✅ Draw point circle
+        # Draw point circle
         cv2.circle(img_display, (x, y), 6, (0, 0, 255), -1)
 
-        # ✅ Point number
+        # Point number
         cv2.putText(img_display, str(len(data)), (x + 10, y - 10),
                     cv2.FONT_HERSHEY_SIMPLEX, 0.6,
                     (255, 255, 255), 2)
@@ -129,7 +129,7 @@ if len(data) > 0:
     excel_path = os.path.join(save_folder, "lab_results.xlsx")
     df.to_excel(excel_path, index=False)
 
-    print("\n✅ Saved successfully:", excel_path)
+    print("\n Saved successfully:", excel_path)
 
 else:
     print("\n⚠ No points selected")
